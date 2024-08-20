@@ -1,64 +1,77 @@
-# movieapp [![Paypal Donate](https://img.shields.io/badge/paypal-donate-green.svg?style=flat)](https://www.paypal.me/junedomingo)
-Discover Movies and TV shows
+# Aplikasi List Film-Film - moviewlist
+
+## Aplikasi menampilkan List Film dengan React Native
+
+## About this project
+
+Aplikasi ini adalah Aplikasi Berita yang dibangun dengan React Native, memungkinkan Anda membaca berita terkini yang sedang tren atau memilih berita berdasarkan kategori yang diminati, menjadikan pengalaman membaca lebih personal. Untuk menjalankan aplikasi ini, masukkanlah API_KEY pribadi yang diperlukan agar aplikasi dapat berfungsi dengan sempurna. Dengan aplikasi ini, Anda akan selalu update dengan berita-berita terbaru yang sesuai dengan minat Anda! 
 
 
-![movieapp-screenshots_big_iphone_](https://cloud.githubusercontent.com/assets/5106887/20606597/f176b3e2-b2ac-11e6-9163-c9e625df7748.png)
+## Fitur Utama
 
-### Download APK file
- - [Download from Google Drive - v2.2.1](https://bit.ly/3nWFZLX)
+- Halaman info film-film
+- List Film-film
+- Detail halaman untuk Film
 
-### What's included
-| Name             | Description   |
-| :-------------:|--------------|
-| [React Native](http://facebook.github.io/react-native/releases/0.32/) |  Build Native Mobile Apps using JavaScript and React. |
-| [React Native Navigation](https://github.com/wix/react-native-navigation) | App-wide support for 100% native navigation with an easy cross-platform interface. |
-| [Redux](https://nodejs.org/) | Predictable state container for JavaScript apps.  |
-| [Redux Thunk](https://github.com/gaearon/redux-thunk) | Thunk middleware for Redux | 
-| [ESLint](http://eslint.org/) | The pluggable linting utility for JavaScript and JSX |
+## Teknologi 
 
-### Requirements
-- [Node](https://nodejs.org/) >= 5.0.0
-- [npm](https://npmjs.com) >= 3
+Aplikasi ini menggunakan bahasa Javascript dengan menggunakan React Native.
 
-### Installation
+## Struktur Project
 
-Clone this repo
-
-```sh
-$ git clone git@github.com:JuneDomingo/movieapp.git
-$ cd movieapp
-$ yarn install or npm install
-```
-
-Create `.env` file in your root directory and add the following
-
-```sh
-TMDB_URL=https://api.themoviedb.org/3
-TMDB_IMG_URL=https://image.tmdb.org/t/p
-TMDB_API_KEY=your_tmdb_api_key_here
-
-YOUTUBE_URL=https://www.googleapis.com/youtube/v3/videos
-YOUTUBE_API_KEY=your_youtube_api_key_here
-
-```
-Get api key -
-[TMDB](https://www.themoviedb.org/) -
-[Youtube](https://console.developers.google.com)
-
-### How to start
-```sh
-$ react-native run-android
-$ react-native run-ios
+```bash
+NewsApps/
+├── android/
+├── ios/
+├── src/
+│     ├── constants
+│         ├── actionTypes.js
+│         ├── api.js
+│     ├── modules
+│         ├── _global
+│        		 ├── scrollableTabView
+│        		 ├── styles
+│         ├── movies
+│        		 ├── components
+│		        		 ├── styles
+│        		 ├── styles
+│        		 ├── tabs
+│		       		 ├── styles
+│     ├── reducers
+│     ├── store
+│     ├── app.android.js
+│     ├── screens.js
 ```
 
 
-### Exponent/ex-navigation version
-Brent Vatne did awesome work to make this run on exponent, checkout his [repo](https://github.com/brentvatne/movieapp)
-- [Open this app in exponent](https://getexponent.com/@community/movieapp)
+## System Architecture
+|    ![SystemArchitecture](https://reactnative.dev/img/header_logo.svg)     | 
+| :----------------: | 
 
 
 
-### How to rename react native app?
-[react-native-rename](https://github.com/JuneDomingo/react-native-rename) - Rename react-native app with just one command
+React Native adalah framework open-source yang dikembangkan oleh Facebook untuk membangun aplikasi mobile dengan menggunakan JavaScript dan React. Dengan React Native, pengembang dapat membuat aplikasi untuk iOS dan Android secara bersamaan menggunakan satu basis kode, yang memungkinkan efisiensi dan konsistensi dalam pengembangan aplikasi. React Native memanfaatkan komponen asli dari masing-masing platform, sehingga aplikasi yang dihasilkan memiliki kinerja yang mendekati aplikasi native murni.
 
-<a href="https://www.buymeacoffee.com/junedomingo"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  target="_blank"></a>
+
+## Repositories
+
+|    Branch Name     |                                      Branch Link                                                                    |
+| :----------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| Mobile Development | [MD Branch](https://github.com/wafiqmuhaz/moviewlist)                                                                 |
+| Api Movie          | [Movie Api](https://developer.themoviedb.org/)  	                                                                   |
+
+## UI/UX Design
+
+- Link Figma Design : [Figma](https://wafiqmuhaz.netlify.app/)
+
+
+
+## Deployment Link APK
+
+Download Link APK:<br>
+[Wafiq Muhaz (Website)](https://wafiqmuhaz.netlify.app/)
+
+
+# Moview App
+This is a Moview App built using React Native. You can read the trending Moview or if you want you can read them category wise. You are requested to please watch the tutorial and generate an API_KEY for yourself in order to run the app.
+
